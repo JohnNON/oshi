@@ -1,6 +1,6 @@
 .PHONY:
 test:
-	go test ./oshi_test
+	go test -v ./...
 
 .PHONY:
 lint:
