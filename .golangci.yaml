@@ -1,0 +1,21 @@
+linters:
+  enable-all: true
+  disable:
+  - exhaustruct
+  - exhaustivestruct
+  - ifshort
+  - deadcode
+  - maligned
+  - interfacer
+  - golint
+  - nosnakecase
+  - structcheck
+  - varcheck
+  - scopelint
+  - paralleltest
+  - depguard
+linters-settings:
+  tagliatelle:
+    case:
+      rules:
+        json: snake
